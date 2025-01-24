@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Locadora de Carros</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
-    <main>
-        <div id="col1">
-            <img src="imagens/truck.png" alt="truck">
-            <h2>Encontre o veiculo certo para você!</h2>
-            <p>Preencha as imformações abaixo</p>
-            <form>
-                <label>Nome</label>
-                <input type="text"><br>
-                <label>E-mail</label>
-                <input type="text"><br>
-                <label>Selecione o tipo do veículo desejado</label><br>
-                <select>
-                    <option>Básico</option>
-                    <option>Família</option>
-                    <option>Luxo</option>
-                </select><br>
-                <button>FAZER MINHA RESERVA</button>
-            </form>
-        </div>
-        <div id="col2">
-            <H1>VOCÊ PODE ALUGAR ESSE VEÍCULO POR R$<em>99</em> / DIA</H1>
-            <p>Válido para todo território nacional</p>
-            <img src="imagens/renault-kwid.png" alt="renault-kwid">
-        </div>
-    </main>
+    <div id="col">
+        <img src="imagens/truck.png" alt="truck">
+        <h2 class="titulo">Encontre o veículo certo pra você!</h2>
+        <p class="texto">Preencha as informações abaixo</p>
+        <form class="pedido">
+            <label>Nome</label><br>
+            <input type="text"> <br>
+            <label>E-mail</label><br>
+            <input type="text"><br>
+            <label>Selecione o tipo de veículo</label><br>
+            <select>
+                <option>Básico</option>
+                <option>Família</option>
+                <option>Luxo</option>
+            </select> <br>
+            <button>FAZER MINHA RESERVA</button>
+        </form>
+    </div>
+    <div id="col2">
+        <h1>VOCÊ PODE ALUGAR ESSE VEÍCULO POR R$<em>99</em>/ DIA</h1>
+        <p>Válido para todo território nacional</p>
+        <img src="imagens/renault-kwid.png" alt="renault-kwid">
+    </div>
+ 
 </body>
-
+ 
 </html>
